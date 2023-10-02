@@ -9,26 +9,31 @@ body {
 }
 
 .container{
-    position: absolute;
     top: 50%;
     left: 50%;
+    position: absolute;
+    height: 300px;
+    width: 600px;
     transform: translate(-50%, -50%);
 }
 
 #canvas1 {
-    border: 5px solid white;
+    border: 3px solid white;
 }
 
 .controls{
-  display: flex;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    display: flex;
 }
 
 .controls > input {
-    width: 70%;
+    width: 75%;
 }
 
 .controls > label {
-    width: 25%;
+    width: 30%;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
 }
