@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: black;
 }
@@ -22,9 +28,7 @@ body {
 }
 
 .controls > label {
- 
     width: 25%;
     color: white;
     font-size: 15px;
-
 }
